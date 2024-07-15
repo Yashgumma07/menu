@@ -1,0 +1,213 @@
+.header {
+    width: 100%;
+    height: 100vh;
+    z-index: -100;
+    position: fixed;
+    background-image: url(https://i.pinimg.com/originals/d0/0f/9f/d00f9f9ab84ec6a5d749ad9b56c6f8f3.jpg);
+    background-size: cover;
+    background-position: center;
+    opacity: 0.3;
+}
+
+.top {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-size: 45px;
+    justify-content: center;
+    background-color: black;
+    margin-top: -8px;
+    margin-left: 250px;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    position: fixed;
+    border-radius: 70px;
+    border-style: solid;
+    border-color: red;
+    -webkit-border-radius: 70px;
+    -moz-border-radius: 70px;
+    -ms-border-radius: 70px;
+    -o-border-radius: 70px;
+}
+
+.name {
+    width: 900px;
+}
+
+span {
+    color: rgb(219, 15, 15);
+    font-size: 65px;
+}
+
+.logo {
+    height: 110px;
+    width: 110px;
+    margin-right: 20px;
+    margin-bottom: -10px;
+    border-radius: 70px;
+    -webkit-border-radius: 70px;
+    -moz-border-radius: 70px;
+    -ms-border-radius: 70px;
+    -o-border-radius: 70px;
+}
+
+.side {
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+    padding-top: 150px;
+}
+
+.sides {
+    margin: 2px 0px 2px 5px;
+    padding: 5px 2px 5px 15px;
+    background-color: white;
+    font-family: Cursive;
+    font-weight: bold;
+    font-size: 28px;
+    border-color: red;
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+.home {
+    margin-left: 400px;
+    padding-top: 150px;
+}
+
+.img {
+    width: 1000px;
+    height: 520px;
+}
+
+.A {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    column-gap: 20px;
+    row-gap: 30px;
+    margin-left: 400px;
+    margin-right: 100px;
+}
+
+.B {
+    height: 320px;
+    background-color: rgb(229, 211, 131);
+    border-color: brown;
+    border-style: solid;
+    margin-top: 20px;
+    margin-right: 10px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+.C {
+    margin: 10px 10px 5px 10px;
+    width: 200px;
+    height: 140px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+.D {
+    background-color: yellow;
+    border-radius: 4px;
+    padding-left: 5px;
+    padding-right: 5px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0px 0px 10px 48px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+}
+
+.E {
+    margin: 10px 0px 5px 25px;
+    height: 40px;
+    width: 60px;
+    border-radius: 20px;
+    font-weight: bold;
+    font-size: 20px;
+    cursor: pointer;
+    border-style: solid;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+
+.E:active {
+    background-color: rgb(116, 106, 106);
+}
+
+.F {
+    margin: 10px 0px 5px -5px;
+    height: 40px;
+    width: 50px;
+    font-weight: bold;
+    font-size: 20px;
+    border-style: solid;
+    cursor: pointer;
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    -o-border-radius: 3px;
+}
+
+.G {
+    margin: 10px 0px 5px -5px;
+    height: 40px;
+    width: 60px;
+    border-radius: 20px;
+    font-weight: bold;
+    font-size: 20px;
+    border-style: solid;
+    cursor: pointer;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+
+.G:active {
+    background-color: rgb(116, 106, 106);
+}
+
+.H {
+    margin: 0px 20px 10px 20px;
+    height: 40px;
+    width: 180px;
+    border-radius: 20px;
+    color: white;
+    background-color: green;
+    font-weight: bold;
+    font-size: 20px;
+    border-style: solid;
+    cursor: pointer;
+}
+
+.H:hover {
+    background-color: rgb(21, 165, 21);
+}
+
+.H:active {
+    margin-top: 5px;
+}
+
+.P {
+    font-size: 20px;
+    margin: 10px 0px 0px 70px;
+}
